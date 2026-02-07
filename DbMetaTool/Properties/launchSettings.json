@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DbMetaTool": {
+      "commandName": "Project",
+      "commandLineArgs": "export-scripts --connection-string \"user id=SYSDBA;password=masterkey;data source=localhost;port number=3050;initial catalog=C:\\Users\\wikto\\source\\repos\\Tests\\DbMetaTool\\DbMetaTool\\Output\\dbs\\new_database.fdb;dialect=3;character set=UTF8\" --output-dir \"C:\\Users\\wikto\\source\\repos\\Tests\\DbMetaTool\\DbMetaTool\\Output\\metadata\""
+    }
+  }
+}
