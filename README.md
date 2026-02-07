@@ -1,5 +1,5 @@
 # DbMetaTool
-##<b>Opis projektu</b>
+## <b>Opis projektu</b>
 
 DbMetaTool to aplikacja konsolowa służąca do zarządzania metadanymi baz danych Firebird 5.0.
 Pozwala na:
@@ -9,12 +9,12 @@ Pozwala na:
 
 Aplikacja obsługuje tylko domeny, tabele oraz procedury.
 
-##<b>Wymagania</b>
+## <b>Wymagania</b>
 - .NET 8
 - Firebird Server 5.0
 - Pakiet NuGet: FirebirdSql.Data.FirebirdClient
 
-##<b>Uruchomienie</b>
+## <b>Uruchomienie</b>
 Aplikacja działa jako narzędzie konsolowe z następującymi komendami:
 ```
 build-db --db-dir <ścieżka> --scripts-dir <ścieżka>
@@ -51,7 +51,7 @@ Komendy:
 ```
 ⚠ Komenda wymaga poprawy - aktualizacja nie działa różnicowo - komendy które wykonają się poprawnie, zostaną zastosowane, komendy które zakończą się błędem, nie zostaną wykonane.
 
-##<b>❗ Ograniczenia i uwagi </b>
+## <b>❗ Ograniczenia i uwagi </b>
 Skrypty nie powinny zawierać ```SET TERM```, poleceń tworzenia bazy danych i poleceń łączenia z bazą danych. Powinny zawierać wyłącznie DDL obiektów.
 Dodatkowo:
 - Skrypty są parsowane przed wykonaniem
